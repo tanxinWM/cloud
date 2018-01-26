@@ -2,10 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-
 	<groupId>ltd.wm</groupId>
-	<artifactId>baojun-ribbon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>baojun-feign</artifactId>
 	<packaging>jar</packaging>
 
 	<parent>
@@ -28,26 +27,13 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-ribbon</artifactId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
 		</dependency>
-		<!-- 断路器 -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-hystrix</artifactId>
-		</dependency>
-		<!-- 仪表盘 -->
-		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
-        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -87,5 +73,4 @@
 			</snapshots>
 		</repository>
 	</repositories>
-
 </project>
