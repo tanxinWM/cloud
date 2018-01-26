@@ -10,6 +10,7 @@
 		<module>baojun-order</module>
 		<module>baojun-ribbon</module>
 		<module>baojun-payment</module>
+		<module>baojun-feign</module>
 	</modules>
 
 	<properties>
