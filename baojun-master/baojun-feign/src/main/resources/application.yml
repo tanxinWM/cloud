@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 eureka:
+=======
+eureka: 
+>>>>>>> 3761f75c1404cbc3f63072329e25c20ae3dbad8b
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
@@ -6,7 +10,11 @@ server:
   port: 8765
 spring:
   application:
+<<<<<<< HEAD
     name: service-feign
 feign: 
   hystrix: 
     enabled: true
+=======
+    name: service-feign
+>>>>>>> 3761f75c1404cbc3f63072329e25c20ae3dbad8b
