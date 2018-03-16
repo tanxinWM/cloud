@@ -11,11 +11,8 @@
 		<module>baojun-ribbon</module>
 		<module>baojun-payment</module>
 		<module>baojun-feign</module>
-<<<<<<< HEAD
 		<module>baojun-zuul</module>
 		<module>baojun-config-server</module>
-=======
->>>>>>> 3761f75c1404cbc3f63072329e25c20ae3dbad8b
 	</modules>
 
 	<properties>
